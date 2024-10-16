@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-color: #323B55;
+	color:#373739;
+	font-size:11px;
+	margin:5px 0 5px 0;
+}
+
+#container{
+	text-align: center;
+	background-color:#FFFFFF;
+	width:940px;
+	margin:0 auto;
+	padding: 5px 10px 5px 10px;
+	text-align:center;
+	border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -khtml-border-radius: 10px; box-shadow: 0 5px 12px rgba(0,0,0,.4); -webkit-box-shadow: 0 5px 12px rgba(0,0,0,.4); -moz-box-shadow: 0 5px 12px rgba(0,0,0,.4); -khtml-box-shadow: 0 5px 12px rgba(0,0,0,.4); 
+}
+
+div#header{
+	text-align:right;
+	clear:both;
+	height:90px;
+	padding-left:10px;
+	font-size:11px;
+	padding-right:10px;
+}
+
+div#title{
+	float:left;
+}
+div#info{
+	float:right;
+}
+
+div#hosts_info{
+	padding-top:12px;
+}
+
+div#scan_info, div#update_info{
+	padding-top:5px;
+}
+
+span#total_hosts, span#n_up_hosts, span#n_down_hosts{
+	padding-left:15px;
+}
+
+div#hosts_down_box, div#hosts_up_box{
+	clear:both;
+	font-size:11px;
+	padding-left:15px;
+	padding-right:15px;
+	text-align:left;
+}
+
+div#hosts_up_box{
+	padding-top:40px;
+}
+
+div#hosts_down_title, div#hosts_up_title{
+	padding-bottom:5px;
+	font-weight:bold;
+}
+
+span.host_up, span.host_down{
+	float:left;
+	border:1px dotted #000000;
+	font-size:10px;
+	padding:5px;
+	margin:1px;
+	box-shadow: 0 5px 12px rgba(0,0,0,.4); -webkit-box-shadow: 0 5px 12px rgba(0,0,0,.4); -moz-box-shadow: 0 5px 12px rgba(0,0,0,.4); -khtml-box-shadow: 0 5px 12px rgba(0,0,0,.4); 
+}
+
+span.host_up{
+	background-color:#BFFF80;
+}
+
+span.host_down{
+	background-color:#FE898C;
+}
+
+div#footer{
+	clear:both;
+}
+
+div#last_updated{
+	font-size:11px;
+	padding:10px 10px 5px 5px;
+	text-align:right;
+}
+
+div.space-top, div.space-bottom{
+	clear:both;
+	padding:2px;
+	margin: 0 10px 0 10px;
+}
+
+div.space-top{
+	border-top:1px dashed #373739;
+	padding-bottom:30px;
+}
+
+div.space-bottom{
+	padding-top:35px;
+	border-bottom:1px dashed #373739;
+}
+
+div#Popup-date, div#Popup-exit{
+	text-align: right;
+	font-size:10px;
+}
+
+div#Popup-txt{
+	font-weight:bold;
+}
+
+div#Popup-list{
+	margin-left:15px;
+}
+
+div#value_tmp{
+	display:none;
+}
+
+span#click-here{
+	cursor:pointer;
+	font-weight:bold;
+}
